@@ -1,12 +1,11 @@
-Ex.No: 9 Implementation of Simple Reinforcement Learning
-DATE:
-NAME: Lokesh R
-REGISTER NUMBER : 212222240055
-AIM:
+# Ex.No: 9  Implementation of Simple Reinforcement Learning 
+### DATE: 
+### REGISTER NUMBER : 212222240055
 
-To write a program to implement Reinforcement learning in Unity
-Algorithm:
-
+### AIM: 
+To write a program to implement  Reinforcement learning  in Unity 
+### Algorithm:
+```
 1.Create a new 3D Unity project
 2.Create a plane → Right-click Hierarchy > 3D Object > Plane
 3.Create an Agent (Cube)
@@ -21,9 +20,9 @@ Algorithm:
 Action Space: Continuous (2)
 12. run the command 
 mlagents-learn config.yaml --run-id=move-to-target --train
-
-Program:
-
+```  
+### Program:
+```
 using Unity.MLAgents;
 using Unity.MLAgents.Actuators;
 using Unity.MLAgents.Sensors;
@@ -106,9 +105,20 @@ behaviors:
       extrinsic:
         gamma: 0.99
         strength: 1.0
+```
+### Output:
 
-Output:
-image image image
-Result:
 
+<img width="1919" height="991" alt="image" src="https://github.com/user-attachments/assets/228e6aa4-f313-4432-97ed-93e2761f6ac8" />
+
+
+<img width="1919" height="995" alt="image" src="https://github.com/user-attachments/assets/67e92d28-bfe9-4582-a9b1-f12e6052a13a" />
+
+<img width="1918" height="989" alt="image" src="https://github.com/user-attachments/assets/c937ba48-6dcc-42fc-9b4f-8be18a85fa0a" />
+
+
+
+
+
+### Result:
 Thus the AI character was trained using reinforcement learning.
